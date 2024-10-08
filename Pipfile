@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pinecone = {extras = ["grpc"], version = "*"}
+langchain = "*"
+langchain-pinecone = "*"
+langchain-openai = "*"
+langchain-text-splitters = "*"
+langchain-community = "*"
+langchain-ollama = "*"
+pinecone-client = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
